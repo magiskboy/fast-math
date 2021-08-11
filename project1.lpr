@@ -10,11 +10,13 @@ uses
   Forms, Unit1
   { you can add units after this };
 
-{$R *.res}
-{$R project.rc}
+//{$R *.res}
+//{$R project.rc}
+{$IFDEF WINDOWS}{$R project.rc}{$ENDIF}
+
 
 begin
-  Application.Title:='Fat Math';
+  Application.Title:='Fast Math';
   RequireDerivedFormResource := True;
   Application.Initialize;
   Application.CreateForm(TForm1, Form1);

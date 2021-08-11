@@ -29,6 +29,7 @@
 # Delphi compiler-generated binaries (safe to delete)
 lib
 backup
+project1
 *.exe
 *.dll
 *.bpl
