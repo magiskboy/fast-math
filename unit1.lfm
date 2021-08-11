@@ -1,0 +1,1008 @@
+object Form1: TForm1
+  Left = 329
+  Height = 512
+  Top = 79
+  Width = 552
+  AutoSize = True
+  BorderStyle = bsNone
+  Caption = 'Fast Math'
+  ClientHeight = 512
+  ClientWidth = 552
+  Icon.Data = {
+    7E1A00000000010001002828000001002000681A000016000000280000002800
+    0000500000000100200000000000001900006400000064000000000000000000
+    0000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200DD5E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200445E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200DD5E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200445E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200DD5E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200445E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200DD5E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200445E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200DD5E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200445E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200DD5E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200445E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200DD5E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200445E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200DD5E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200445E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200DD5E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200445E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200DD5E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200445E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200DD5E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200005E4200665E4200FF5E4200FF5E4200EE5E4200005E4200005E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200445E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200DD5E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200005E4200BB5E4200FF5E4200FF5E4200FF5E4200665E4200005E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200445E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200DD5E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200445E4200FF5E4200FF5E4200FF5E4200FF5E4200DD5E4200005E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200445E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200DD5E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200995E4200FF5E4200FF5E4200FF5E4200FF5E4200FF5E4200445E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200445E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200DD5E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00225E4200FF5E4200FF5E4200FF5E4200FF5E4200FF5E4200FF5E4200BB5E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200445E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200DD5E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00885E4200FF5E4200FF5E4200FF5E4200FF5E4200FF5E4200FF5E4200FF5E42
+    00335E4200005E4200005E4200005E4200005E4200005E4200445E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200DD5E4200005E4200005E4200005E4200005E4200005E4200115E42
+    00EE5E4200FF5E4200FF5E4200FF5E4200665E4200FF5E4200FF5E4200FF5E42
+    00995E4200005E4200005E4200005E4200005E4200005E4200445E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200DD5E4200005E4200005E4200005E4200005E4200005E4200775E42
+    00FF5E4200FF5E4200FF5E4200CC5E4200005E4200995E4200FF5E4200FF5E42
+    00FF5E4200225E4200005E4200005E4200005E4200005E4200445E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200DD5E4200005E4200005E4200005E4200005E4200005E4200DD5E42
+    00FF5E4200FF5E4200FF5E4200665E4200005E4200445E4200FF5E4200FF5E42
+    00FF5E4200775E4200005E4200005E4200005E4200005E4200445E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200DD5E4200005E4200005E4200005E4200005E4200665E4200FF5E42
+    00FF5E4200FF5E4200DD5E4200005E4200005E4200005E4200BB5E4200FF5E42
+    00FF5E4200EE5E4200115E4200005E4200005E4200005E4200445E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200DD5E4200005E4200005E4200005E4200005E4200BB5E4200FF5E42
+    00FF5E4200FF5E4200775E4200005E4200005E4200005E4200665E4200FF5E42
+    00FF5E4200FF5E4200775E4200005E4200005E4200005E4200445E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200DD5E4200005E4200005E4200005E4200445E4200FF5E4200FF5E42
+    00FF5E4200EE5E4200115E4200005E4200005E4200005E4200005E4200DD5E42
+    00FF5E4200FF5E4200DD5E4200005E4200005E4200005E4200445E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200DD5E4200005E4200005E4200005E4200AA5E4200FF5E4200FF5E42
+    00FF5E4200775E4200005E4200005E4200005E4200005E4200005E4200775E42
+    00FF5E4200FF5E4200FF5E4200665E4200005E4200005E4200445E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200DD5E4200005E4200005E4200225E4200FF5E4200FF5E4200FF5E42
+    00FF5E4200225E4200005E4200005E4200005E4200005E4200005E4200115E42
+    00EE5E4200FF5E4200FF5E4200BB5E4200005E4200005E4200445E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200DD5E4200005E4200005E4200995E4200FF5E4200FF5E4200FF5E42
+    00995E4200005E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00995E4200FF5E4200FF5E4200FF5E4200445E4200005E4200445E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200DD5E4200005E4200115E4200EE5E4200FF5E4200FF5E4200FF5E42
+    00335E4200005E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00225E4200FF5E4200FF5E4200FF5E4200AA5E4200005E4200445E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200DD5E4200005E4200775E4200FF5E4200FF5E4200FF5E4200BB5E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200BB5E4200FF5E4200FF5E4200FF5E4200225E4200445E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200DD5E4200005E4200DD5E4200FF5E4200FF5E4200FF5E4200445E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200445E4200FF5E4200FF5E4200FF5E4200995E4200445E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200DD5E4200665E4200FF5E4200FF5E4200FF5E4200CC5E4200005E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200005E4200DD5E4200FF5E4200FF5E4200EE5E4200555E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200DD5E4200CC5E4200FF5E4200FF5E4200FF5E4200665E4200005E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200005E4200665E4200FF5E4200FF5E4200FF5E4200BB5E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200FF5E4200FF5E4200FF5E4200FF5E4200DD5E4200005E4200005E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200005E4200115E4200EE5E4200FF5E4200FF5E4200FF5E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200FF5E4200FF5E4200FF5E4200FF5E4200775E4200005E4200005E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200005E4200005E4200775E4200FF5E4200FF5E4200FF5E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200FF5E4200FF5E4200FF5E4200EE5E4200115E4200005E4200005E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200005E4200005E4200225E4200FF5E4200FF5E4200FF5E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200FF5E4200FF5E4200FF5E4200775E4200005E4200005E4200005E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200005E4200005E4200005E4200995E4200FF5E4200FF5E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF005E4200775E4200FF5E4200FF5E42
+    00FF5E4200FF5E4200FF5E4200FF5E4200225E4200005E4200005E4200005E42
+    00005E4200005E4200005E4200005E4200005E4200005E4200005E4200005E42
+    00005E4200005E4200005E4200005E4200445E4200FF5E4200FF5E4200FF5E42
+    00FF5E4200FF5E4200FF5E420077FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000
+  }
+  OnActivate = FormActivate
+  OnShow = FormShow
+  LCLVersion = '1.2.4.0'
+  object Image1: TImage
+    Left = 0
+    Height = 520
+    Top = 0
+    Width = 552
+    OnClick = Image1Click
+    OnMouseDown = Image1MouseDown
+    OnMouseMove = Image1MouseMove
+    OnMouseUp = Image1MouseUp
+  end
+  object Panel1: TPanel
+    Left = 8
+    Height = 469
+    Top = 35
+    Width = 538
+    ClientHeight = 469
+    ClientWidth = 538
+    Color = clPurple
+    ParentColor = False
+    TabOrder = 0
+    OnClick = Panel1Click
+    OnMouseMove = Panel1MouseMove
+    object num1: TLabel
+      Left = 112
+      Height = 111
+      Top = 88
+      Width = 53
+      Caption = '0'
+      Font.CharSet = VIETNAMESE_CHARSET
+      Font.Color = clYellow
+      Font.Height = -96
+      Font.Name = 'Arial Narrow'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object num2: TLabel
+      Left = 368
+      Height = 111
+      Top = 88
+      Width = 53
+      Caption = '0'
+      Font.CharSet = VIETNAMESE_CHARSET
+      Font.Color = clYellow
+      Font.Height = -96
+      Font.Name = 'Arial Narrow'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object num3: TLabel
+      Left = 272
+      Height = 111
+      Top = 208
+      Width = 53
+      Caption = '0'
+      Font.CharSet = VIETNAMESE_CHARSET
+      Font.Color = clYellow
+      Font.Height = -96
+      Font.Name = 'Arial Narrow'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object num4: TLabel
+      Left = 109
+      Height = 111
+      Top = 208
+      Width = 56
+      Caption = '='
+      Font.CharSet = VIETNAMESE_CHARSET
+      Font.Color = clYellow
+      Font.Height = -96
+      Font.Name = 'Arial Narrow'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object pt: TLabel
+      Left = 256
+      Height = 111
+      Top = 88
+      Width = 59
+      Caption = '?'
+      Font.CharSet = VIETNAMESE_CHARSET
+      Font.Color = clYellow
+      Font.Height = -96
+      Font.Name = 'Arial Narrow'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object D: TPanel
+      Tag = -1
+      Left = 120
+      Height = 122
+      Top = 328
+      Width = 122
+      Caption = 'Đ'
+      Color = clLime
+      Font.CharSet = VIETNAMESE_CHARSET
+      Font.Color = clBlue
+      Font.Height = -133
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentBidiMode = False
+      ParentColor = False
+      ParentFont = False
+      TabOrder = 0
+      OnClick = DClick
+      OnMouseMove = DMouseMove
+    end
+    object S: TPanel
+      Tag = -1
+      Left = 288
+      Height = 122
+      Top = 328
+      Width = 122
+      Caption = 'S'
+      Color = clLime
+      Font.CharSet = VIETNAMESE_CHARSET
+      Font.Color = clBlue
+      Font.Height = -133
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+      TabOrder = 1
+      OnClick = SClick
+      OnMouseMove = SMouseMove
+    end
+    object num5: TLabel
+      Left = 136
+      Height = 36
+      Top = 16
+      Width = 18
+      Caption = '0'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clYellow
+      Font.Height = -32
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentColor = False
+      ParentFont = False
+    end
+    object Panel2: TPanel
+      Left = -152
+      Height = 336
+      Top = 0
+      Width = 170
+      ClientHeight = 336
+      ClientWidth = 170
+      Color = 7996719
+      ParentColor = False
+      TabOrder = 2
+      OnClick = Panel2Click
+      OnMouseMove = Panel2MouseMove
+      object Label1: TLabel
+        Left = 16
+        Height = 29
+        Top = 24
+        Width = 108
+        Caption = 'Chơi mới'
+        Font.CharSet = VIETNAMESE_CHARSET
+        Font.Color = clLime
+        Font.Height = -24
+        Font.Name = 'Arial Narrow'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        OnClick = Label1Click
+        OnMouseMove = Label1MouseMove
+      end
+      object Label2: TLabel
+        Left = 16
+        Height = 29
+        Top = 64
+        Width = 80
+        Caption = 'Cài đặt'
+        Font.CharSet = VIETNAMESE_CHARSET
+        Font.Color = clLime
+        Font.Height = -24
+        Font.Name = 'Arial Narrow'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        OnClick = Label2Click
+        OnMouseMove = Label2MouseMove
+      end
+      object Label3: TLabel
+        Left = 16
+        Height = 29
+        Top = 112
+        Width = 112
+        Caption = 'Thông tin'
+        Font.CharSet = VIETNAMESE_CHARSET
+        Font.Color = clLime
+        Font.Height = -24
+        Font.Name = 'Arial Narrow'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        OnClick = Label3Click
+        OnMouseMove = Label3MouseMove
+      end
+      object Label4: TLabel
+        Left = 16
+        Height = 29
+        Top = 152
+        Width = 116
+        Caption = 'Trang chủ'
+        Font.CharSet = VIETNAMESE_CHARSET
+        Font.Color = clLime
+        Font.Height = -24
+        Font.Name = 'Arial Narrow'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        OnClick = Label4Click
+        OnMouseMove = Label4MouseMove
+      end
+      object Label5: TLabel
+        Left = 16
+        Height = 29
+        Top = 232
+        Width = 106
+        Caption = 'Điểm cao'
+        Font.CharSet = VIETNAMESE_CHARSET
+        Font.Color = clLime
+        Font.Height = -24
+        Font.Name = 'Arial Narrow'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label18: TLabel
+        Left = 16
+        Height = 1
+        Top = 280
+        Width = 1
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clRed
+        Font.Height = -29
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label19: TLabel
+        Left = 16
+        Height = 1
+        Top = 312
+        Width = 1
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clYellow
+        Font.Height = -15
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+      end
+      object label20: TLabel
+        Left = 16
+        Height = 29
+        Top = 192
+        Width = 66
+        Caption = 'Thoát'
+        Font.CharSet = VIETNAMESE_CHARSET
+        Font.Color = clLime
+        Font.Height = -24
+        Font.Name = 'Arial Narrow'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        OnClick = label20Click
+        OnMouseMove = label20MouseMove
+      end
+    end
+    object Panel3: TPanel
+      Left = 75
+      Height = 152
+      Top = -192
+      Width = 415
+      ClientHeight = 152
+      ClientWidth = 415
+      Color = 7996719
+      ParentColor = False
+      TabOrder = 3
+      OnClick = Panel2Click
+      object Label6: TLabel
+        Left = 16
+        Height = 27
+        Top = 8
+        Width = 78
+        Caption = 'Tác giả'
+        Font.CharSet = VIETNAMESE_CHARSET
+        Font.Color = clYellow
+        Font.Height = -24
+        Font.Name = 'Arial Narrow'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label7: TLabel
+        Left = 16
+        Height = 27
+        Top = 42
+        Width = 144
+        Caption = 'Tên trò chơi: '
+        Font.CharSet = VIETNAMESE_CHARSET
+        Font.Color = clYellow
+        Font.Height = -24
+        Font.Name = 'Arial Narrow'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label8: TLabel
+        Left = 16
+        Height = 27
+        Top = 104
+        Width = 187
+        Caption = 'Ngày phát hành: '
+        Font.CharSet = VIETNAMESE_CHARSET
+        Font.Color = clYellow
+        Font.Height = -24
+        Font.Name = 'Arial Narrow'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label9: TLabel
+        Left = 216
+        Height = 1
+        Top = 11
+        Width = 1
+        Font.CharSet = VIETNAMESE_CHARSET
+        Font.Color = clLime
+        Font.Height = -21
+        Font.Name = 'Arial Narrow'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label10: TLabel
+        Left = 216
+        Height = 24
+        Top = 42
+        Width = 94
+        Caption = 'Fast Math'
+        Font.CharSet = VIETNAMESE_CHARSET
+        Font.Color = clLime
+        Font.Height = -21
+        Font.Name = 'Arial Narrow'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label11: TLabel
+        Left = 216
+        Height = 24
+        Top = 104
+        Width = 98
+        Caption = '10-2-2015'
+        Font.CharSet = VIETNAMESE_CHARSET
+        Font.Color = clLime
+        Font.Height = -21
+        Font.Name = 'Arial Narrow'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label15: TLabel
+        Left = 16
+        Height = 27
+        Top = 72
+        Width = 110
+        Caption = 'Phiên bản'
+        Font.CharSet = VIETNAMESE_CHARSET
+        Font.Color = clYellow
+        Font.Height = -24
+        Font.Name = 'Arial Narrow'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label16: TLabel
+        Left = 216
+        Height = 24
+        Top = 75
+        Width = 30
+        Caption = '1.0'
+        Font.CharSet = VIETNAMESE_CHARSET
+        Font.Color = clLime
+        Font.Height = -21
+        Font.Name = 'Arial Narrow'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object Panel4: TPanel
+      Left = 120
+      Height = 138
+      Top = -176
+      Width = 296
+      ClientHeight = 138
+      ClientWidth = 296
+      Color = clGreen
+      ParentColor = False
+      TabOrder = 4
+      OnClick = Panel9Click
+      OnMouseMove = Panel4MouseMove
+      object num6: TLabel
+        Left = 200
+        Height = 24
+        Top = 17
+        Width = 12
+        Caption = '0'
+        Font.CharSet = VIETNAMESE_CHARSET
+        Font.Color = clWhite
+        Font.Height = -21
+        Font.Name = 'Arial Narrow'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object Panel5: TPanel
+        Left = 8
+        Height = 50
+        Top = 80
+        Width = 88
+        Caption = 'Chơi tiếp'
+        Color = 33023
+        Font.CharSet = ANSI_CHARSET
+        Font.Height = -16
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+        TabOrder = 0
+        OnClick = Panel5Click
+        OnMouseMove = Panel5MouseMove
+      end
+      object Panel6: TPanel
+        Left = 200
+        Height = 50
+        Top = 80
+        Width = 88
+        Caption = 'Thoát'
+        Color = 33023
+        Font.CharSet = ANSI_CHARSET
+        Font.Height = -16
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+        TabOrder = 1
+        OnClick = Panel6Click
+        OnMouseMove = Panel6MouseMove
+      end
+      object Panel9: TPanel
+        Left = 110
+        Height = 50
+        Top = 80
+        Width = 80
+        Caption = 'Menu'
+        Color = 33023
+        Font.CharSet = ANSI_CHARSET
+        Font.Height = -16
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+        TabOrder = 2
+        OnClick = Panel9Click
+        OnMouseMove = Panel9MouseMove
+      end
+      object Label17: TLabel
+        Left = 8
+        Height = 23
+        Top = 17
+        Width = 168
+        Caption = 'Bạn đạt được số điểm'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clYellow
+        Font.Height = -19
+        Font.Name = 'Arial Narrow'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object ProgressBar1: TProgressBar
+      Left = 128
+      Height = 20
+      Top = 56
+      Width = 288
+      Max = 300
+      OnContextPopup = ProgressBar1ContextPopup
+      Step = 0
+      TabOrder = 5
+    end
+    object Panel7: TPanel
+      Left = 600
+      Height = 213
+      Top = 176
+      Width = 320
+      ClientHeight = 213
+      ClientWidth = 320
+      Color = 9895936
+      ParentColor = False
+      TabOrder = 6
+      OnClick = Label2Click
+      object Label12: TLabel
+        Left = 10
+        Height = 18
+        Top = 16
+        Width = 99
+        Caption = 'Phạm vi giá trị'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clYellow
+        Font.Height = -16
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label13: TLabel
+        Left = 10
+        Height = 18
+        Top = 48
+        Width = 88
+        Caption = 'Thời gian trễ'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clYellow
+        Font.Height = -16
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label14: TLabel
+        Left = 10
+        Height = 18
+        Top = 80
+        Width = 168
+        Caption = 'Thêm phép nhân và chia'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clYellow
+        Font.Height = -16
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+      end
+      object RadioGroup1: TRadioGroup
+        Left = 8
+        Height = 105
+        Top = 104
+        Width = 185
+        AutoFill = True
+        Caption = 'Ngôn ngữ'
+        ChildSizing.LeftRightSpacing = 6
+        ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+        ChildSizing.EnlargeVertical = crsHomogenousChildResize
+        ChildSizing.ShrinkHorizontal = crsScaleChilds
+        ChildSizing.ShrinkVertical = crsScaleChilds
+        ChildSizing.Layout = cclLeftToRightThenTopToBottom
+        ChildSizing.ControlsPerLine = 1
+        ClientHeight = 87
+        ClientWidth = 181
+        TabOrder = 0
+        object vn: TRadioButton
+          Left = 6
+          Height = 44
+          Top = 0
+          Width = 169
+          Caption = 'Tiếng Việt'
+          Checked = True
+          Font.CharSet = VIETNAMESE_CHARSET
+          Font.Color = clYellow
+          Font.Height = -16
+          Font.Name = 'Arial Narrow'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          OnChange = vnChange
+          ParentFont = False
+          TabOrder = 1
+          TabStop = True
+        end
+        object en: TRadioButton
+          Left = 6
+          Height = 43
+          Top = 44
+          Width = 169
+          Caption = 'Tiếng Anh'
+          Font.CharSet = VIETNAMESE_CHARSET
+          Font.Color = clYellow
+          Font.Height = -16
+          Font.Name = 'Arial Narrow'
+          Font.Pitch = fpVariable
+          Font.Quality = fqDraft
+          OnChange = enChange
+          ParentFont = False
+          TabOrder = 0
+        end
+      end
+      object Edit1: TEdit
+        Left = 208
+        Height = 23
+        Top = 11
+        Width = 80
+        TabOrder = 1
+        Text = '10'
+      end
+      object Edit2: TEdit
+        Left = 208
+        Height = 23
+        Top = 48
+        Width = 80
+        TabOrder = 2
+        Text = '6'
+      end
+      object CheckBox1: TCheckBox
+        Left = 208
+        Height = 19
+        Top = 80
+        Width = 20
+        TabOrder = 3
+      end
+      object Panel8: TPanel
+        Left = 200
+        Height = 50
+        Top = 128
+        Width = 96
+        Caption = 'Lưu'
+        Color = 33023
+        Font.CharSet = VIETNAMESE_CHARSET
+        Font.Height = -27
+        Font.Name = 'Arial Narrow'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+        TabOrder = 4
+        OnClick = Panel8Click
+      end
+    end
+    object num7: TLabel
+      Left = 24
+      Height = 36
+      Top = 16
+      Width = 74
+      Caption = 'Điểm'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clYellow
+      Font.Height = -32
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentColor = False
+      ParentFont = False
+    end
+  end
+  object close_window: TLabel
+    Left = 520
+    Height = 41
+    Top = 0
+    Width = 23
+    Caption = 'X'
+    Font.CharSet = VIETNAMESE_CHARSET
+    Font.Color = clYellow
+    Font.Height = -35
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    OnClick = close_windowClick
+  end
+  object close_window2: TLabel
+    Left = 384
+    Height = 41
+    Top = 0
+    Width = 21
+    Caption = '?'
+    Font.CharSet = VIETNAMESE_CHARSET
+    Font.Color = clYellow
+    Font.Height = -35
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object close_window1: TLabel
+    Left = 456
+    Height = 41
+    Top = -8
+    Width = 19
+    Caption = '_'
+    Font.CharSet = VIETNAMESE_CHARSET
+    Font.Color = clYellow
+    Font.Height = -35
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    OnClick = close_window1Click
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 2000
+    OnTimer = Timer1Timer
+    OnStartTimer = Timer1Timer
+    OnStopTimer = Timer1StopTimer
+    left = 504
+    top = 48
+  end
+  object Timer2: TTimer
+    Enabled = False
+    Interval = 10
+    OnTimer = Timer2Timer
+    OnStartTimer = Timer2StartTimer
+    left = 464
+    top = 48
+  end
+end
